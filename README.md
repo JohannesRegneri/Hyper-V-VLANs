@@ -57,7 +57,7 @@ Rename-VMNetworkAdapter -ManagementOS -Name "VLAN-1" -NewName "VLAN-0001"
 
 
 ```powershell
-Set-VMNetworkAdapterVlan -ManagementOS -VMNetworkAdapterName <vmswitch name> -Access -VlanId <id>
+Set-VMNetworkAdapterVlan -ManagementOS -VMNetworkAdapterName "VLAN-0001" -Access -VlanId 123
 ```
 
 
