@@ -28,6 +28,12 @@ Finally, verify that all adapter are in place
 Get-NetAdapter
 ```
 
+List of Virtual Adapters
+```powershell
+Get-VMNetworkAdapter -All
+```
+
+
 Delete specific Adapter
 ```powershell
 Remove-VMNetworkAdapter -ManagementOS -SwitchName "VLAN-vSwitch" -Name "VLAN123"
