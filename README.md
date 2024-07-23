@@ -37,8 +37,13 @@ Get-VMNetworkAdapter -All
 Gets the virtual LAN settings configured on a virtual network adapter.
 ```powershell
 Get-VMNetworkAdapterVlan -ManagementOS
-
 ```
+
+## Get-VMNetworkAdapterVlan with ID
+```powershell
+Get-NetAdapter | fl
+```
+
 
 ## Delete specific Adapter
 ```powershell
