@@ -45,4 +45,11 @@ Get-VMNetworkAdapterVlan -ManagementOS
 Remove-VMNetworkAdapter -ManagementOS -SwitchName "VLAN-vSwitch" -Name "VLAN123"
 ```
 
+## Rename a NetworkAdapter
+```powershell
+Rename-VMNetworkAdapter -ManagementOS -Name "VLAN-1" -NewName "VLAN-0001"
+```
+
+
+
 
